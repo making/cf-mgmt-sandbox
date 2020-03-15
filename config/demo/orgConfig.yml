@@ -9,6 +9,7 @@ org-manager:
   users: []
   saml_users:
   - tmaki@pivotal.io
+  - makingx@gmail.com
   ldap_groups: []
 org-auditor:
   ldap_users: []

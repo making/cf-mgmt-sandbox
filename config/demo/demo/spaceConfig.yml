@@ -5,12 +5,14 @@ space-developer:
   users: []
   saml_users:
   - tmaki@pivotal.io
+  - makingx@gmail.com
   ldap_groups: []
 space-manager:
   ldap_users: []
   users: []
   saml_users:
   - tmaki@pivotal.io
+  - makingx@gmail.com
   ldap_groups: []
 space-auditor:
   ldap_users: []
