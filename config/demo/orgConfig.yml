@@ -1,0 +1,38 @@
+org: demo
+org-billingmanager:
+  ldap_users: []
+  users: []
+  saml_users: []
+  ldap_groups: []
+org-manager:
+  ldap_users: []
+  users: []
+  saml_users:
+  - tmaki@pivotal.io
+  ldap_groups: []
+org-auditor:
+  ldap_users: []
+  users: []
+  saml_users: []
+  ldap_groups: []
+private-domains: []
+enable-remove-private-domains: true
+shared-private-domains: []
+enable-remove-shared-private-domains: true
+enable-org-quota: false
+memory-limit: 100M
+instance-memory-limit: unlimited
+total-routes: unlimited
+total-services: unlimited
+paid-service-plans-allowed: false
+enable-remove-users: true
+total_private_domains: unlimited
+total_reserved_route_ports: unlimited
+total_service_keys: unlimited
+app_instance_limit: unlimited
+app_task_limit: unlimited
+default_isolation_segment: ""
+named_quota: ""
+metadata:
+  annotations: {}
+  labels: {}

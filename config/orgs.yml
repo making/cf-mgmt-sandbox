@@ -1,4 +1,5 @@
-orgs: []
+orgs:
+- demo
 enable-delete-orgs: true
 protected_orgs:
 - system

@@ -1,0 +1,37 @@
+org: demo
+space: demo
+space-developer:
+  ldap_users: []
+  users: []
+  saml_users:
+  - tmaki@pivotal.io
+  ldap_groups: []
+space-manager:
+  ldap_users: []
+  users: []
+  saml_users:
+  - tmaki@pivotal.io
+  ldap_groups: []
+space-auditor:
+  ldap_users: []
+  users: []
+  saml_users: []
+  ldap_groups: []
+allow-ssh: false
+enable-space-quota: false
+enable-security-group: false
+enable-unassign-security-group: false
+enable-remove-users: true
+isolation_segment: ""
+named-security-groups: []
+memory-limit: unlimited
+instance-memory-limit: unlimited
+total-routes: unlimited
+total-services: unlimited
+paid-service-plans-allowed: false
+total_reserved_route_ports: unlimited
+total_service_keys: unlimited
+app_instance_limit: unlimited
+app_task_limit: unlimited
+named_quota: ""
+metadata: null
